@@ -1,0 +1,13 @@
+# Obter a lista de leads (consulta API Principal)
+GET http://localhost:4000/leads
+
+###
+
+# Simular envio de status atualizado através do email do lead para API Principal
+POST http://localhost:4000/leads/postback
+Content-type: application/json
+
+{
+    "email": "example@gmail.com",
+    "status": "converted"
+}

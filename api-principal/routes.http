@@ -1,0 +1,32 @@
+# Criar um lead
+POST http://localhost:3333/leads
+Content-type: application/json
+
+{
+    "name": "Name Example",
+    "email": "example@gmail.com",
+    "phone": "5531999999999"
+}
+
+###
+
+# Listar os leads
+GET http://localhost:3333/leads
+
+###
+
+# Atualizar um lead 
+PUT http://localhost:3333/leads/ID_AQUI
+Content-type: application/json
+
+{
+    "name" : "Name Example",
+    "email": "example@gmail.com",
+    "phone": "5531987654321"
+}
+
+###
+
+# Deletar um lead
+DELETE http://localhost:3333/leads/ID_AQUI
+
