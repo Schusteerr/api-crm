@@ -4,7 +4,7 @@ Projeto API para gerenciar leads e integrar um CRM usando **Node.js**, **Fastify
 
 ## 🎯 Objetivos do Projeto
 Pequeno serviço web que:
-1. Receba dados de um formulário de lead (nome, e-mail e telefone).
+1. Receba dados de cadastro de lead (nome, e-mail e telefone).
 2. Envie esses dados via API para um sistema de CRM fictício.
 3. Configure um endpoint de POSTBACK para receber notificações de conversão do CRM.
 4. Armazene os leads e suas conversões em um banco de dados.
