@@ -18,6 +18,8 @@ Pequeno serviço web que:
 
 ## 🔧 Como Rodar o Projeto
 
+*Certifique-se de que terá as tecnologias listadas instaladas.*
+
 ### 1️⃣ Clone o Repositório
 ```bash
 git clone https://github.com/Schusteerr/api-crm
