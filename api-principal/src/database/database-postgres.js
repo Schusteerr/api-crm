@@ -5,7 +5,6 @@ export class DatabasePostgres {
 
     // Implementação de métodos CRUD para gerenciar usuários no banco de dados PostgreSQL, incluindo criação, leitura, atualização e exclusão de usuários, bem como atualização do status do CRM através do email do usuário.
 
-
     async list() {
         try {
             const leads = await sql`SELECT * FROM leads`;

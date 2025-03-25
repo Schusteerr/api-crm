@@ -59,13 +59,12 @@ server.put("/leads/:id", async (request, reply) => {
 
 server.delete("/leads/:id", async (request, reply) => {
     const userID = request.params.id;
-    const { name, email, phone } = request.body;
 
     try {
         const deletedUser = await database.delete(userID);
-        console.log(`Usuário ${name} deletado.`);
+        console.log(`Usuário  deletado.`);
         return reply.status(200).send({
-            message: `Usuário ${name} deletado.`,
+            message: `Usuário  deletado.`,
             lead: deletedUser
         });
     } catch (error) {
